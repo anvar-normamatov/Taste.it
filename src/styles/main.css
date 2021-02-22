@@ -1,0 +1,352 @@
+.main-container {
+  width: 100%;
+  margin: 0%;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.home-header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-box {
+  width: 100%;
+  height: 30px;
+  margin: 5px 0;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.navbar-box .navbar-info {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.74);
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar-box .navbar-info span {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.89);
+  margin: 0 5px;
+}
+.navbar-box .navbar-info-mini-box {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-box .navbar-info-mini-box p {
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.753);
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar-box .navbar-info-mini-box .navbar-icon-container {
+  width: 20%;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar-box .navbar-info-mini-box .navbar-icon-container .fa {
+  color: white;
+}
+
+.navbar-mini-box {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.568);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-mini-box .collapse {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.navbar-mini-box .collapse .navbar-brand {
+  font-weight: 900;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Roboto Condensed", sans-serif;
+  color: red;
+}
+.navbar-mini-box .collapse .navbar-brand span {
+  color: white;
+  font-weight: 700;
+}
+.navbar-mini-box .collapse .navbar-brand:hover {
+  color: #ebebeb;
+}
+.navbar-mini-box .collapse .navbar-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar-mini-box .collapse .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.897);
+}
+.navbar-mini-box .collapse .navbar-nav .nav-link:hover {
+  color: #e52b34;
+}
+
+.navbar.sticky {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.navbar.sticky .navbar-box {
+  display: none;
+  border: 2px solid red;
+}
+.navbar.sticky .navbar-mini-box {
+  background-color: white;
+}
+.navbar.sticky .navbar-mini-box .navbar-brand {
+  font-weight: 800;
+  font-size: 20px;
+  font-style: normal;
+  color: red;
+}
+.navbar.sticky .navbar-mini-box .navbar-brand span {
+  color: white;
+  font-weight: 700;
+}
+.navbar.sticky .navbar-mini-box .navbar-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar.sticky .navbar-mini-box .navbar-nav .nav-link {
+  color: rgba(29, 27, 27, 0.897);
+}
+.navbar.sticky .navbar-mini-box .navbar-nav .nav-link:hover {
+  color: #e52b34;
+}
+
+.carousel {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.carousel .carousel-inner {
+  width: 100%;
+  overflow-x: hidden;
+}
+.carousel .carousel-inner .carousel-caption {
+  margin-bottom: 130px;
+}
+.carousel .carousel-inner .carousel-caption .header-title-box {
+  border: 1px solid white;
+  width: 30%;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+.carousel .carousel-inner .carousel-caption p {
+  width: 100%;
+  font-size: 130px;
+  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+  line-height: 120px;
+  font-style: normal;
+}
+.carousel .carousel-inner .carousel-caption h6 {
+  width: 40%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  color: red;
+  text-transform: uppercase;
+  position: relative;
+}
+.carousel .carousel-inner .carousel-caption h6:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+}
+.carousel .carousel-inner .carousel-caption h6:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+}
+
+.banner-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.booking-page {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.booking-input-box {
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e52b34;
+}
+.booking-input-box .booking-input-box {
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 68px 0;
+}
+.booking-input-box .booking-input-box h1 {
+  width: 90%;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.booking-input-box .booking-input-box input {
+  width: 90%;
+  height: 45px;
+  background-color: transparent;
+  margin-top: 15px;
+  outline: none;
+  border: 1px solid #fccfaa;
+  padding-left: 10px;
+  color: #fccfaa;
+}
+.booking-input-box .booking-input-box ::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fccfaa;
+}
+.booking-input-box .booking-input-box select {
+  width: 90%;
+  height: 45px;
+  background-color: transparent;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid #fccfaa;
+  padding-left: 10px;
+  color: #fccfaa;
+}
+.booking-input-box .booking-input-box option {
+  background-color: red;
+}
+.booking-input-box .booking-input-box button {
+  width: 90%;
+  height: 55px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  outline: none;
+  padding-left: 10px;
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.897);
+}
+.booking-input-box .booking-input-box button:hover {
+  color: #e52b34;
+}
+
+.booking-info-box {
+  width: 62%;
+  display: flex;
+  align-items: center;
+  background-image: url("../../assets/img/chef-making-ok-sign-white-background.jpg");
+  background-size: 400px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.booking-info-container {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.booking-info-container h1 {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+  color: #eb5961;
+}
+.booking-info-container h2 {
+  width: 70%;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: -30px;
+  color: #343434;
+}
+.booking-info-container p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #808080;
+  line-height: 32px;
+}
+
+/*# sourceMappingURL=main.css.map */
