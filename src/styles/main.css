@@ -349,4 +349,161 @@
   line-height: 32px;
 }
 
+.parallax-box {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/img/shruti-dadwal-1GelM8jSmow-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.parallax-box .parallax-title {
+  font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+.parallax-box .parallax-info {
+  font-size: 40px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+}
+
+.menu-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-box .menu-title {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+  color: #eb5961;
+  padding-top: 100px;
+}
+.menu-box .menu-info {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: -35px;
+  color: #343434;
+  padding-bottom: 40px;
+}
+
+.menu-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.menu-container .menu-mini-container {
+  width: 32%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(236, 236, 236, 0.185);
+  justify-content: space-between;
+  border: 1.5px rgba(128, 128, 128, 0.473) dashed;
+  transition: 0.4s all ease;
+}
+.menu-container .menu-mini-container:hover {
+  border: 1px #f1737a dashed;
+}
+.menu-container .menu-icon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.menu-container .menu-icon img {
+  width: 12%;
+  opacity: 0.5;
+}
+.menu-container .menu-blog {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu-container .menu-blog h1 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Roboto", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+.menu-container .menu-blog .menu-mini-blog {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s all ease;
+  padding: 30px 0;
+  border-bottom: 1px rgba(128, 128, 128, 0.473) dashed;
+}
+.menu-container .menu-blog .menu-mini-blog .menu-mini-blog-img {
+  width: 25%;
+  height: 80px;
+}
+.menu-container .menu-blog .menu-mini-blog .menu-mini-blog-img img {
+  width: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.menu-container .menu-blog .menu-mini-blog .menu-blog-info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.menu-container .menu-blog .menu-mini-blog .menu-blog-info .menu-blog-info2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-container .menu-blog .menu-mini-blog .menu-blog-info .menu-blog-info2 h1 {
+  width: 69%;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 26px;
+}
+.menu-container .menu-blog .menu-mini-blog .menu-blog-info .menu-blog-info2 h6 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #e52b34;
+}
+.menu-container .menu-blog .menu-mini-blog .menu-blog-info h2 {
+  width: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+.menu-container .menu-blog .menu-mini-blog:hover {
+  border-bottom: 1px #f1737a dashed;
+}
+.menu-container .menu-blog .menu-mini-blog:hover .menu-blog-info2 h1:hover {
+  color: #e52b34;
+}
+
 /*# sourceMappingURL=main.css.map */
